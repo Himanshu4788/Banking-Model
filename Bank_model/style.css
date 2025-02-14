@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    border: 3px solid rgba(10, 118, 151, 0.382);
+    width: 50%;
+    min-height: 50vh;
+    margin: 10% auto; 
+    padding: 20px;
+}
+
+.banking-system {
+    font-size: xx-large;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.loginscreen {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    width: 100%;
+    max-width: 300px;
+}
+
+.email,
+.password {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.showopt {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.showopt button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.showopt button:hover {
+    background-color: #0056b3;
+}
+
+.genopt_code {
+    padding: 10px;
+    height: 5vh;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.login-button input {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button input:hover {
+    background-color: #0056b3;
+}

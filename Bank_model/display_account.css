@@ -1,0 +1,55 @@
+/* add_account.css */
+.details {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.details-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.details input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #218838;
+}
+
+/* display_account.css */
+.account_details {
+    font-size: 24px;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f8f9fa;
+}
